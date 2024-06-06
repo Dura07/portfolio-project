@@ -1,0 +1,1 @@
+This project is an lading page of a website which is aim to help farmers, agricultural enthusiasts,  and all stakeholders in the agricultural sector work with less stress and more synergy thereby promoting availability of farms produce and eliminate food scarcity
