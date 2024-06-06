@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+
+
+</head>
+<body>
+    <section class="header">
+        
+        <nav class="navbar">
+            <h2>strideAgros</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">login</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-regular fa-bars" onclick="showMenu()"></i>
+           
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest Agro Market</h1>
+            <p>your one stop platform to find all agricultural produces and raw materials <br> all over the country at your convienence.</p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+
+
+    </section>
+
+   <!----- products--> 
+   <section class="produce">
+    <h1>produces up for find</h1>
+    <p>the following agricultural produce we aim at bring the seller close to buy</p>
+
+
+    <div class="row">
+
+        <div class="produce-col">
+            <h3>agricultural raw product</h3>
+            <p>this are freshly harvested crops such as yams, cassava, beans, potatoes e.t.c from the farm ready for shipping</p>
+        </div>
+
+        <div class="produce-col">
+            
+            <h3>cash crops and raw materials</h3>
+            <p>this are freshly harvested and processed raw cash crops and materials like cottons, leathers, cocoa e.t.c. on the farm ready for shipping</p>
+        </div>
+
+        <div class="produce-col">
+            
+            <h3>agricultural raw product</h3>
+            <p>this are fresh and healthy farms animals such as cattles, goats, chickens, turkeys e.t.c. from the farm ready for shipping</p>
+        </div>
+
+        
+
+    </div>
+   </section>
+
+<!-----photo verification-->
+
+
+   <section class="aims">
+        <h1>our main aim and objectives</h1>
+        <p>to bring to an end problems of food scarcity in the nation, bring farm produces seller closer to the buyers at no cost thereby elimination the problems of food wastage, in addition, to provide source of income to agricultural enthusists.</p>
+
+    <section>
+
+
+
+
+
+
+
+
+    <!------javaScript for toggle menu------->
+       
+    <script>
+        
+         var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+    </script>
+
+
+
+
+</body>
+</html>
