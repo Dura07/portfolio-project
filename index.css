@@ -19,6 +19,7 @@
 
 
 
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -28,7 +29,10 @@
     background-size: cover;
     position: relative;
     animation: sloppy 0.9s 0.5s;
+    
+ 
 }
+
 .navbar {
     display: flex;
     padding: 15px 35px;
@@ -42,8 +46,8 @@ h2 {
     color:  rgb(72, 100, 39);
     animation: sloppy 0.9s 0.5s;
     
-    
 }
+
 .nav-links {
     flex: 1;
     text-align: right;
@@ -57,9 +61,10 @@ h2 {
     position: relative;
     text-transform: uppercase;
     animation: sloppy 0.9s 0.5s;
-
     
 }
+
+
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
@@ -115,7 +120,6 @@ h2 {
     cursor: pointer;
     animation: sloppy 1s 0.7s;
 }
-
 
 
 .hero-btn:hover {
@@ -177,19 +181,15 @@ h1 {
     font-size: 35px;
     font-weight: 600;
     animation: sloppy 1s 0.5s;
-    
-    
-
 }
+
+
 p {
     font-size: 15px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
     animation: sloppy 0.7s 0.6s backwards;
-    
-    
-
 }
 
 .row {
@@ -243,6 +243,7 @@ h3 {
     padding-top: 50px;
     padding-bottom: 30px;
 }
+
 
 .footer {
      text-align: center;
