@@ -3,14 +3,31 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+
+@keyframes sloppy {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+
+
+
 .header {
     min-height: 100vh;
     width: 100%;
     background-color: greenyellow;
-    background-image: url(img6s.jpg);
+    background-image: url(images/img6s.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
+    animation: sloppy 0.9s 0.5s;
 }
 .navbar {
     display: flex;
@@ -21,7 +38,9 @@
 }
 
 h2 {
-    width: 150px;
+    width: 160px;
+    color:  rgb(72, 100, 39);
+    animation: sloppy 0.9s 0.5s;
     
     
 }
@@ -37,6 +56,8 @@ h2 {
     padding: 3px 6px;
     position: relative;
     text-transform: uppercase;
+    animation: sloppy 0.9s 0.5s;
+
     
 }
 .nav-links ul li a {
@@ -92,7 +113,11 @@ h2 {
     background: transparent;
     position: relative;
     cursor: pointer;
+    animation: sloppy 1s 0.7s;
 }
+
+
+
 .hero-btn:hover {
     border: 1px solid #6be209;
     background: #6be209;
@@ -151,6 +176,8 @@ nav .fa-solid, .fa-regular{
 h1 {
     font-size: 35px;
     font-weight: 600;
+    animation: sloppy 1s 0.5s;
+    
     
 
 }
@@ -159,6 +186,8 @@ p {
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    animation: sloppy 0.7s 0.6s backwards;
+    
     
 
 }
@@ -215,3 +244,8 @@ h3 {
     padding-bottom: 30px;
 }
 
+.footer {
+     text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+}
