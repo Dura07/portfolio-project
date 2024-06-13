@@ -43,7 +43,8 @@
 
 h2 {
     width: 160px;
-    color:  rgb(72, 100, 39);
+    font-weight: 600;
+    color:  #fff;
     animation: sloppy 0.9s 0.5s;
     
 }
@@ -231,6 +232,8 @@ h3 {
         font-weight: 600;
 
     }
+
+    
 }
 
 
